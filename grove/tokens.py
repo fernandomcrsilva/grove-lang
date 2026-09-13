@@ -61,12 +61,12 @@ WORDS = {
     "R2": TokenType.OR,
 }
 
-# botões de um caractere
+# botões de um caractere, com alias ASCII para quem não quer digitar Unicode
 BUTTONS = {
-    "△": TokenType.LBRACE,
-    "○": TokenType.RBRACE,
-    "×": TokenType.SEMI,
-    "□": TokenType.NOT,
+    "△": TokenType.LBRACE, "{": TokenType.LBRACE,
+    "○": TokenType.RBRACE, "}": TokenType.RBRACE,
+    "×": TokenType.SEMI,   ";": TokenType.SEMI,
+    "□": TokenType.NOT,    "!": TokenType.NOT,
 }
 
 # operadores: os de dois caracteres precisam ser testados antes dos de um

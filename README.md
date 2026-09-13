@@ -39,7 +39,16 @@ python -m unittest                              # testes
 
 ## Como digitar os botões
 
-`△ ○ × □` são Unicode. No Linux com tecla Compose: `Compose` + `x` + `x` dá `×`. Alternativa universal: copiar e colar de [examples/fatorial.cj](examples/fatorial.cj) ou configurar um snippet no editor.
+`△ ○ × □` são Unicode. Quem não quiser digitar pode usar os aliases ASCII `{ } ; !`, que geram os mesmos tokens:
+
+```
+HESOYAM n = 5;
+BAGUVIX L1 n > 1 R1 {
+    n = n - 1;
+}
+```
+
+No Linux com tecla Compose, `Compose` + `x` + `x` dá `×`. Ou copie de [examples/fatorial.cj](examples/fatorial.cj).
 
 ## Estrutura
 

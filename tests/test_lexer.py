@@ -49,6 +49,10 @@ class LexerTest(unittest.TestCase):
         self.assertEqual(self.types("== != <= >= L2 R2 □ %")[:-1],
                          [T.EQ, T.NE, T.LE, T.GE, T.AND, T.OR, T.NOT, T.MOD])
 
+    def test_alias_ascii(self):
+        self.assertEqual(self.types("{ } ; ! != x")[:-1],
+                         [T.LBRACE, T.RBRACE, T.SEMI, T.NOT, T.NE, T.IDENT])
+
     def test_comentario_e_ignorado(self):
         self.assertEqual(self.types("# so comentario\n"), [T.EOF])
 
