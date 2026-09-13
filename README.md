@@ -63,14 +63,3 @@ docs/              entregáveis: tabela de tokens, gramática, semântica
 examples/          programas de exemplo (.cj)
 tests/             unittest
 ```
-
-## Estado
-
-- [x] Análise léxica e tabela de tokens
-- [x] Análise sintática e AST
-- [x] Back-end (interpretador)
-- [ ] Pitch
-
-## Equipe
-
-4 pessoas. Sugestão de divisão: léxico + tabela de tokens, sintático + AST, back-end, documentação + pitch.
