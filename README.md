@@ -13,16 +13,19 @@ BAGUVIX L1 n > 1 R1 △
 CJPHONEHOME r ×
 ```
 
-| Você escreve | Significa |
-|---|---|
-| `HESOYAM x = 1 ×` | declara `x` |
-| `AEZAKMI L1 cond R1 △ … ○ ASNAEB △ … ○` | if / else |
-| `BAGUVIX L1 cond R1 △ … ○` | while |
-| `CPKTNWT ×` | break |
-| `CJPHONEHOME expr ×` | print |
-| `FULLCLIP` / `GHOSTTOWN` | true / false |
-| `△` `○` `×` | `{` `}` `;` |
-| `L1` `R1` `L2` `R2` `□` | `(` `)` `and` `or` `not` |
+| Você escreve | Significa | O cheat no jogo |
+|---|---|---|
+| `HESOYAM x = 1 ×` | declara `x` | vida e colete cheios + $250.000 |
+| `AEZAKMI L1 cond R1 △ … ○` | if | nunca procurado pela polícia |
+| `ASNAEB △ … ○` | else | zera o nível de procurado |
+| `BAGUVIX L1 cond R1 △ … ○` | while | vida infinita |
+| `CPKTNWT ×` | break | explode todos os carros |
+| `CJPHONEHOME expr ×` | print | pulo altíssimo de bicicleta |
+| `FULLCLIP` | true | munição infinita |
+| `GHOSTTOWN` | false | ruas vazias, quase sem carros e pedestres |
+| `△` `○` `×` | `{` `}` `;` | botões triângulo, bola, xis |
+| `□` | `not` | botão quadrado |
+| `L1` `R1` `L2` `R2` | `(` `)` `and` `or` | gatilhos do controle |
 
 Tabela completa em [docs/tokens.md](docs/tokens.md); gramática em [docs/gramatica.md](docs/gramatica.md); semântica em [docs/interpretador.md](docs/interpretador.md).
 

@@ -4,16 +4,18 @@ Saída da análise léxica: cada token tem **tipo**, **lexema**, **linha** e **c
 
 ## Palavras reservadas (cheats de GTA San Andreas)
 
-| Lexema | Token | Papel | Referência ao jogo |
-|---|---|---|---|
-| `HESOYAM` | `VAR` | declara variável | vida, colete e $250.000: o cheat que "dá" recursos |
-| `AEZAKMI` | `IF` | condicional | nunca procurado: a condição que muda o jogo |
-| `ASNAEB` | `ELSE` | senão | limpa o nível de procurado: o outro caminho |
-| `BAGUVIX` | `WHILE` | laço | vida infinita: o laço não morre |
-| `CPKTNWT` | `BREAK` | sai do laço | explode todos os carros: para tudo |
-| `CJPHONEHOME` | `PRINT` | imprime | "phone home": manda pra fora |
-| `FULLCLIP` | `TRUE` | verdadeiro | munição infinita: cheio |
-| `GHOSTTOWN` | `FALSE` | falso | cidade fantasma: vazio |
+| Lexema | Token | Papel | O que faz no jogo | Por que virou isso |
+|---|---|---|---|---|
+| `HESOYAM` | `VAR` | declara variável | vida e colete cheios + $250.000 | o cheat que "dá" recursos: aqui dá um valor à variável |
+| `AEZAKMI` | `IF` | condicional | nunca procurado pela polícia | muda as regras do jogo conforme a condição |
+| `ASNAEB` | `ELSE` | senão | zera o nível de procurado | o outro caminho, limpa e segue |
+| `BAGUVIX` | `WHILE` | laço | vida infinita | o laço não morre enquanto a condição valer |
+| `CPKTNWT` | `BREAK` | sai do laço | explode todos os carros | para tudo de uma vez |
+| `CJPHONEHOME` | `PRINT` | imprime | pulo altíssimo de bicicleta | "phone home": manda algo pra fora |
+| `FULLCLIP` | `TRUE` | verdadeiro | munição infinita | pente cheio |
+| `GHOSTTOWN` | `FALSE` | falso | ruas vazias, quase sem carros e pedestres | cidade vazia, nada |
+
+Todos são os códigos da versão de PC; no PS2 cada um corresponde a uma sequência de botões.
 
 ## Botões do controle (estrutura)
 
