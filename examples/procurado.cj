@@ -6,6 +6,6 @@ BAGUVIX L1 FULLCLIP R1 △
         CPKTNWT ×
     ○
     estrelas = estrelas + 1 ×
-    CJPHONEHOME estrelas ×
+    HELLOLADIES estrelas ×
 ○
-CJPHONEHOME "fim: " ×
+HELLOLADIES "fim: " ×

@@ -10,7 +10,7 @@ BAGUVIX L1 n > 1 R1 △
     r = r * n ×
     n = n - 1 ×
 ○
-CJPHONEHOME r ×
+HELLOLADIES r ×
 ```
 
 | Você escreve | Significa | O cheat no jogo |
@@ -20,7 +20,7 @@ CJPHONEHOME r ×
 | `ASNAEB △ … ○` | else | zera o nível de procurado |
 | `BAGUVIX L1 cond R1 △ … ○` | while | vida infinita |
 | `CPKTNWT ×` | break | explode todos os carros |
-| `CJPHONEHOME expr ×` | print | pulo muito alto de bicicleta |
+| `HELLOLADIES expr ×` | print | sex appeal no máximo |
 | `FULLCLIP` | true | munição infinita |
 | `GHOSTTOWN` | false | ruas vazias, sem carros e pedestres |
 | `△` `○` `×` | `{` `}` `;` | botões triângulo, bola, xis |

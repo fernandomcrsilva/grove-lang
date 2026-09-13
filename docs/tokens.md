@@ -11,9 +11,9 @@ Saída da análise léxica: cada token tem **tipo**, **lexema**, **linha** e **c
 | `ASNAEB` | `ELSE` | senão | zera o nível de procurado | o outro caminho, limpa e segue |
 | `BAGUVIX` | `WHILE` | laço | vida infinita | o laço não morre enquanto a condição valer |
 | `CPKTNWT` | `BREAK` | sai do laço | explode todos os carros | para tudo de uma vez |
-| `CJPHONEHOME` | `PRINT` | imprime | pulo altíssimo de bicicleta | "phone home": manda algo pra fora |
+| `HELLOLADIES` | `PRINT` | imprime | sex appeal no máximo | todo programa começa com "Hello, World" |
 | `FULLCLIP` | `TRUE` | verdadeiro | munição infinita | pente cheio |
-| `GHOSTTOWN` | `FALSE` | falso | ruas vazias, quase sem carros e pedestres | cidade vazia, nada |
+| `GHOSTTOWN` | `FALSE` | falso | ruas vazias, sem carros e pedestres | cidade vazia, nada |
 
 Todos são os códigos da versão de PC; no PS2 cada um corresponde a uma sequência de botões.
 

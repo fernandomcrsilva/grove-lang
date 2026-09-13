@@ -10,7 +10,7 @@
 | string | `"texto"` | `+` (concatena), `==` `!=` |
 | booleano | `FULLCLIP`, `GHOSTTOWN` | `L2` `R2` `□`, `==` `!=` |
 
-Não há conversão implícita. `1 + "a"` é erro. `CJPHONEHOME` imprime booleanos como `FULLCLIP` / `GHOSTTOWN`.
+Não há conversão implícita. `1 + "a"` é erro. `HELLOLADIES` imprime booleanos como `FULLCLIP` / `GHOSTTOWN`.
 
 ## Escopo
 
@@ -18,10 +18,10 @@ Cada `△ … ○` cria um escopo novo, encadeado ao pai. `HESOYAM` declara no e
 
 ```
 HESOYAM x = 1 ×
-△ HESOYAM x = 2 × CJPHONEHOME x × ○   # 2 (sombra)
-CJPHONEHOME x ×                        # 1
+△ HESOYAM x = 2 × HELLOLADIES x × ○   # 2 (sombra)
+HELLOLADIES x ×                        # 1
 △ x = 9 × ○
-CJPHONEHOME x ×                        # 9
+HELLOLADIES x ×                        # 9
 ```
 
 ## Controle de fluxo

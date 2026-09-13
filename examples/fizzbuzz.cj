@@ -2,13 +2,13 @@
 HESOYAM i = 1 ×
 BAGUVIX L1 i <= 15 R1 △
     AEZAKMI L1 i % 15 == 0 R1 △
-        CJPHONEHOME "FizzBuzz" ×
+        HELLOLADIES "FizzBuzz" ×
     ○ ASNAEB AEZAKMI L1 i % 3 == 0 R1 △
-        CJPHONEHOME "Fizz" ×
+        HELLOLADIES "Fizz" ×
     ○ ASNAEB AEZAKMI L1 i % 5 == 0 R1 △
-        CJPHONEHOME "Buzz" ×
+        HELLOLADIES "Buzz" ×
     ○ ASNAEB △
-        CJPHONEHOME i ×
+        HELLOLADIES i ×
     ○
     i = i + 1 ×
 ○

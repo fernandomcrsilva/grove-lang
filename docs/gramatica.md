@@ -17,7 +17,7 @@ instrucao    = seStmt
 
 seStmt       = "AEZAKMI" "L1" expressao "R1" bloco [ "ASNAEB" ( seStmt | bloco ) ] ;
 enquantoStmt = "BAGUVIX" "L1" expressao "R1" bloco ;
-printStmt    = "CJPHONEHOME" expressao "×" ;
+printStmt    = "HELLOLADIES" expressao "×" ;
 breakStmt    = "CPKTNWT" "×" ;
 bloco        = "△" { declaracao } "○" ;
 atribuicao   = IDENT "=" expressao "×" ;
@@ -76,7 +76,7 @@ Definidos em `grove/ast.py` como `dataclass`es:
 `ParseError` com linha, coluna, o que era esperado e o que foi encontrado:
 
 ```
-erro: linha 2, coluna 1: esperado × (fim de instrução), encontrado 'CJPHONEHOME'
+erro: linha 2, coluna 1: esperado × (fim de instrução), encontrado 'HELLOLADIES'
 ```
 
 ## Exemplo de AST
