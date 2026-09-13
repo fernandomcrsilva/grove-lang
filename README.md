@@ -20,9 +20,9 @@ CJPHONEHOME r ×
 | `ASNAEB △ … ○` | else | zera o nível de procurado |
 | `BAGUVIX L1 cond R1 △ … ○` | while | vida infinita |
 | `CPKTNWT ×` | break | explode todos os carros |
-| `CJPHONEHOME expr ×` | print | pulo altíssimo de bicicleta |
+| `CJPHONEHOME expr ×` | print | pulo muito alto de bicicleta |
 | `FULLCLIP` | true | munição infinita |
-| `GHOSTTOWN` | false | ruas vazias, quase sem carros e pedestres |
+| `GHOSTTOWN` | false | ruas vazias, sem carros e pedestres |
 | `△` `○` `×` | `{` `}` `;` | botões triângulo, bola, xis |
 | `□` | `not` | botão quadrado |
 | `L1` `R1` `L2` `R2` | `(` `)` `and` `or` | gatilhos do controle |
