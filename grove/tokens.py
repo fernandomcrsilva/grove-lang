@@ -12,7 +12,7 @@ class TokenType(Enum):
     IF = auto()       # AEZAKMI
     ELSE = auto()     # ASNAEB
     WHILE = auto()    # BAGUVIX
-    BREAK = auto()    # CPKTNWT
+    BREAK = auto()    # GOODBYECRUELWORLD
     PRINT = auto()    # HELLOLADIES
     TRUE = auto()     # FULLCLIP
     FALSE = auto()    # GHOSTTOWN
@@ -51,7 +51,7 @@ WORDS = {
     "AEZAKMI": TokenType.IF,
     "ASNAEB": TokenType.ELSE,
     "BAGUVIX": TokenType.WHILE,
-    "CPKTNWT": TokenType.BREAK,
+    "GOODBYECRUELWORLD": TokenType.BREAK,
     "HELLOLADIES": TokenType.PRINT,
     "FULLCLIP": TokenType.TRUE,
     "GHOSTTOWN": TokenType.FALSE,

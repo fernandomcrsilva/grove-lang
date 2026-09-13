@@ -10,7 +10,7 @@ Saída da análise léxica: cada token tem **tipo**, **lexema**, **linha** e **c
 | `AEZAKMI` | `IF` | condicional | nunca procurado pela polícia | muda as regras do jogo conforme a condição |
 | `ASNAEB` | `ELSE` | senão | zera o nível de procurado | o outro caminho, limpa e segue |
 | `BAGUVIX` | `WHILE` | laço | vida infinita | o laço não morre enquanto a condição valer |
-| `CPKTNWT` | `BREAK` | sai do laço | explode todos os carros | para tudo de uma vez |
+| `GOODBYECRUELWORLD` | `BREAK` | sai do laço | CJ morre na hora | adeus, laço |
 | `HELLOLADIES` | `PRINT` | imprime | sex appeal no máximo | todo programa começa com "Hello, World" |
 | `FULLCLIP` | `TRUE` | verdadeiro | munição infinita | pente cheio |
 | `GHOSTTOWN` | `FALSE` | falso | ruas vazias, sem carros e pedestres | cidade vazia, nada |

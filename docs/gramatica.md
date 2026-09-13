@@ -18,7 +18,7 @@ instrucao    = seStmt
 seStmt       = "AEZAKMI" "L1" expressao "R1" bloco [ "ASNAEB" ( seStmt | bloco ) ] ;
 enquantoStmt = "BAGUVIX" "L1" expressao "R1" bloco ;
 printStmt    = "HELLOLADIES" expressao "×" ;
-breakStmt    = "CPKTNWT" "×" ;
+breakStmt    = "GOODBYECRUELWORLD" "×" ;
 bloco        = "△" { declaracao } "○" ;
 atribuicao   = IDENT "=" expressao "×" ;
 

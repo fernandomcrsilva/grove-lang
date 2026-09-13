@@ -19,7 +19,7 @@ HELLOLADIES r ×
 | `AEZAKMI L1 cond R1 △ … ○` | if | nunca procurado pela polícia |
 | `ASNAEB △ … ○` | else | zera o nível de procurado |
 | `BAGUVIX L1 cond R1 △ … ○` | while | vida infinita |
-| `CPKTNWT ×` | break | explode todos os carros |
+| `GOODBYECRUELWORLD ×` | break | CJ morre na hora |
 | `HELLOLADIES expr ×` | print | sex appeal no máximo |
 | `FULLCLIP` | true | munição infinita |
 | `GHOSTTOWN` | false | ruas vazias, sem carros e pedestres |

@@ -27,7 +27,7 @@ class InterpreterTest(unittest.TestCase):
         HESOYAM i = 0 ×
         BAGUVIX L1 FULLCLIP R1 △
             i = i + 1 ×
-            AEZAKMI L1 i == 3 R1 △ CPKTNWT × ○ ASNAEB △ HELLOLADIES i × ○
+            AEZAKMI L1 i == 3 R1 △ GOODBYECRUELWORLD × ○ ASNAEB △ HELLOLADIES i × ○
         ○
         """
         self.assertEqual(execute(src), ["1", "2"])
@@ -46,7 +46,7 @@ class InterpreterTest(unittest.TestCase):
         casos = {
             "HELLOLADIES y ×": "não declarada",
             "HESOYAM a = 1 × HESOYAM a = 2 ×": "já declarada",
-            "CPKTNWT ×": "fora de laço",
+            "GOODBYECRUELWORLD ×": "fora de laço",
             "HELLOLADIES 1 / 0 ×": "divisão por zero",
             "AEZAKMI L1 1 R1 △ ○": "booleano",
             'HELLOLADIES 1 + "a" ×': "tipos",

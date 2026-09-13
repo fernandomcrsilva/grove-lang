@@ -10,7 +10,7 @@ class RuntimeError_(Exception):
 
 
 class BreakSignal(Exception):
-    """Sinaliza CPKTNWT; capturado pelo laço mais interno."""
+    """Sinaliza GOODBYECRUELWORLD; capturado pelo laço mais interno."""
 
 
 class Environment:
@@ -109,7 +109,7 @@ class Interpreter:
 
     def exec_Break(self, node):
         if self.loops == 0:
-            raise RuntimeError_("CPKTNWT fora de laço")
+            raise RuntimeError_("GOODBYECRUELWORLD fora de laço")
         raise BreakSignal()
 
     # ---- expressões ----
