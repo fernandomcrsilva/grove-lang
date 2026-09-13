@@ -17,6 +17,7 @@ HELLOLADIES r ×
 |---|---|---|
 | `HESOYAM x = 1 ×` | declara `x` | vida e colete cheios + $250.000 |
 | `TURNUPTHEHEAT L1 cond R1 △ … ○` | if | +2 estrelas de procurado |
+| `BRINGITON L1 cond R1 △ … ○` | else if | 6 estrelas de procurado |
 | `TURNDOWNTHEHEAT △ … ○` | else | zera o nível de procurado |
 | `KANGAROO L1 cond R1 △ … ○` | while | pulo gigante |
 | `GOODBYECRUELWORLD ×` | break | CJ morre na hora |

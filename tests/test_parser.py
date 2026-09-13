@@ -45,6 +45,11 @@ class ParserTest(unittest.TestCase):
         stmt = p("TURNUPTHEHEAT L1 a R1 △ ○ TURNDOWNTHEHEAT TURNUPTHEHEAT L1 b R1 △ ○").body[0]
         self.assertIsInstance(stmt.orelse, If)
 
+    def test_bringiton_e_atalho_de_else_if(self):
+        longo = p("TURNUPTHEHEAT L1 a R1 △ ○ TURNDOWNTHEHEAT TURNUPTHEHEAT L1 b R1 △ ○ TURNDOWNTHEHEAT △ ○").body[0]
+        curto = p("TURNUPTHEHEAT L1 a R1 △ ○ BRINGITON L1 b R1 △ ○ TURNDOWNTHEHEAT △ ○").body[0]
+        self.assertEqual(curto, longo)
+
     def test_erro_sintatico_aponta_posicao(self):
         with self.assertRaises(ParseError) as cm:
             p("HESOYAM x = 5\nHELLOLADIES x ×")

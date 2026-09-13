@@ -91,7 +91,9 @@ class Parser:
         self.expect(T.RPAREN)
         then = self.block()
         orelse = None
-        if self.match(T.ELSE):
+        if self.match(T.ELIF):
+            orelse = self.if_stmt()
+        elif self.match(T.ELSE):
             orelse = self.if_stmt() if self.match(T.IF) else self.block()
         return If(cond, then, orelse)
 

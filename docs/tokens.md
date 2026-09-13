@@ -8,6 +8,7 @@ Saída da análise léxica: cada token tem **tipo**, **lexema**, **linha** e **c
 |---|---|---|---|---|
 | `HESOYAM` | `VAR` | declara variável | vida e colete cheios + $250.000 | o cheat que "dá" recursos: aqui dá um valor à variável |
 | `TURNUPTHEHEAT` | `IF` | condicional | +2 estrelas de procurado | a polícia vem checar: "e se?" |
+| `BRINGITON` | `ELIF` | senão se | 6 estrelas de procurado | sobe ainda mais o calor: outra condição |
 | `TURNDOWNTHEHEAT` | `ELSE` | senão | zera o nível de procurado | par do de cima: senão, esfria |
 | `KANGAROO` | `WHILE` | laço | pulo gigante | pula de novo, de novo, de novo |
 | `GOODBYECRUELWORLD` | `BREAK` | sai do laço | CJ morre na hora | adeus, laço |

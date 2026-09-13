@@ -10,6 +10,7 @@ class TokenType(Enum):
     # cheats
     VAR = auto()      # HESOYAM
     IF = auto()       # TURNUPTHEHEAT
+    ELIF = auto()     # BRINGITON
     ELSE = auto()     # TURNDOWNTHEHEAT
     WHILE = auto()    # KANGAROO
     BREAK = auto()    # GOODBYECRUELWORLD
@@ -49,6 +50,7 @@ class TokenType(Enum):
 WORDS = {
     "HESOYAM": TokenType.VAR,
     "TURNUPTHEHEAT": TokenType.IF,
+    "BRINGITON": TokenType.ELIF,
     "TURNDOWNTHEHEAT": TokenType.ELSE,
     "KANGAROO": TokenType.WHILE,
     "GOODBYECRUELWORLD": TokenType.BREAK,
