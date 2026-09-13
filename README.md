@@ -6,7 +6,7 @@ Linguagem de programação em que as palavras-chave são os cheats de **GTA San 
 # fatorial de 5
 HESOYAM n = 5 ×
 HESOYAM r = 1 ×
-BAGUVIX L1 n > 1 R1 △
+KANGAROO L1 n > 1 R1 △
     r = r * n ×
     n = n - 1 ×
 ○
@@ -16,9 +16,9 @@ HELLOLADIES r ×
 | Você escreve | Significa | O cheat no jogo |
 |---|---|---|
 | `HESOYAM x = 1 ×` | declara `x` | vida e colete cheios + $250.000 |
-| `AEZAKMI L1 cond R1 △ … ○` | if | nunca procurado pela polícia |
-| `ASNAEB △ … ○` | else | zera o nível de procurado |
-| `BAGUVIX L1 cond R1 △ … ○` | while | vida infinita |
+| `TURNUPTHEHEAT L1 cond R1 △ … ○` | if | +2 estrelas de procurado |
+| `TURNDOWNTHEHEAT △ … ○` | else | zera o nível de procurado |
+| `KANGAROO L1 cond R1 △ … ○` | while | pulo gigante |
 | `GOODBYECRUELWORLD ×` | break | CJ morre na hora |
 | `HELLOLADIES expr ×` | print | sex appeal no máximo |
 | `FULLCLIP` | true | munição infinita |
@@ -46,7 +46,7 @@ python -m unittest                              # testes
 
 ```
 HESOYAM n = 5;
-BAGUVIX L1 n > 1 R1 {
+KANGAROO L1 n > 1 R1 {
     n = n - 1;
 }
 ```

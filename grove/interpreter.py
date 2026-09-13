@@ -92,7 +92,7 @@ class Interpreter:
         self.out(formatar(self.eval(node.value)))
 
     def exec_If(self, node: If):
-        if _bool(self.eval(node.cond), "condição do AEZAKMI"):
+        if _bool(self.eval(node.cond), "condição do TURNUPTHEHEAT"):
             self.exec(node.then)
         elif node.orelse is not None:
             self.exec(node.orelse)
@@ -100,7 +100,7 @@ class Interpreter:
     def exec_While(self, node):
         self.loops += 1
         try:
-            while _bool(self.eval(node.cond), "condição do BAGUVIX"):
+            while _bool(self.eval(node.cond), "condição do KANGAROO"):
                 self.exec(node.body)
         except BreakSignal:
             pass

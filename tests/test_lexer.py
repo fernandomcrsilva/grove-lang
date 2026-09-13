@@ -7,7 +7,7 @@ FATORIAL = """\
 # fatorial de 5
 HESOYAM n = 5 ×
 HESOYAM r = 1 ×
-BAGUVIX L1 n > 1 R1 △
+KANGAROO L1 n > 1 R1 △
     r = r * n ×
     n = n - 1 ×
 ○
@@ -36,7 +36,7 @@ class LexerTest(unittest.TestCase):
         toks = tokenize(FATORIAL)
         n = toks[1]
         self.assertEqual((n.lexeme, n.line, n.col), ("n", 2, 9))
-        self.assertEqual((toks[10].lexeme, toks[10].line, toks[10].col), ("BAGUVIX", 4, 1))
+        self.assertEqual((toks[10].lexeme, toks[10].line, toks[10].col), ("KANGAROO", 4, 1))
 
     def test_literais(self):
         toks = tokenize('HESOYAM s = "oi mundo" × HESOYAM b = FULLCLIP ×')

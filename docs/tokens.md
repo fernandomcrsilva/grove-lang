@@ -7,9 +7,9 @@ Saída da análise léxica: cada token tem **tipo**, **lexema**, **linha** e **c
 | Lexema | Token | Papel | O que faz no jogo | Por que virou isso |
 |---|---|---|---|---|
 | `HESOYAM` | `VAR` | declara variável | vida e colete cheios + $250.000 | o cheat que "dá" recursos: aqui dá um valor à variável |
-| `AEZAKMI` | `IF` | condicional | nunca procurado pela polícia | muda as regras do jogo conforme a condição |
-| `ASNAEB` | `ELSE` | senão | zera o nível de procurado | o outro caminho, limpa e segue |
-| `BAGUVIX` | `WHILE` | laço | vida infinita | o laço não morre enquanto a condição valer |
+| `TURNUPTHEHEAT` | `IF` | condicional | +2 estrelas de procurado | a polícia vem checar: "e se?" |
+| `TURNDOWNTHEHEAT` | `ELSE` | senão | zera o nível de procurado | par do de cima: senão, esfria |
+| `KANGAROO` | `WHILE` | laço | pulo gigante | pula de novo, de novo, de novo |
 | `GOODBYECRUELWORLD` | `BREAK` | sai do laço | CJ morre na hora | adeus, laço |
 | `HELLOLADIES` | `PRINT` | imprime | sex appeal no máximo | todo programa começa com "Hello, World" |
 | `FULLCLIP` | `TRUE` | verdadeiro | munição infinita | pente cheio |

@@ -25,9 +25,9 @@ class InterpreterTest(unittest.TestCase):
     def test_if_else_e_break(self):
         src = """
         HESOYAM i = 0 ×
-        BAGUVIX L1 FULLCLIP R1 △
+        KANGAROO L1 FULLCLIP R1 △
             i = i + 1 ×
-            AEZAKMI L1 i == 3 R1 △ GOODBYECRUELWORLD × ○ ASNAEB △ HELLOLADIES i × ○
+            TURNUPTHEHEAT L1 i == 3 R1 △ GOODBYECRUELWORLD × ○ TURNDOWNTHEHEAT △ HELLOLADIES i × ○
         ○
         """
         self.assertEqual(execute(src), ["1", "2"])
@@ -48,7 +48,7 @@ class InterpreterTest(unittest.TestCase):
             "HESOYAM a = 1 × HESOYAM a = 2 ×": "já declarada",
             "GOODBYECRUELWORLD ×": "fora de laço",
             "HELLOLADIES 1 / 0 ×": "divisão por zero",
-            "AEZAKMI L1 1 R1 △ ○": "booleano",
+            "TURNUPTHEHEAT L1 1 R1 △ ○": "booleano",
             'HELLOLADIES 1 + "a" ×': "tipos",
         }
         for src, trecho in casos.items():

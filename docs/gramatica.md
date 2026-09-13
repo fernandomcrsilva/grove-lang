@@ -15,8 +15,8 @@ instrucao    = seStmt
              | bloco
              | atribuicao ;
 
-seStmt       = "AEZAKMI" "L1" expressao "R1" bloco [ "ASNAEB" ( seStmt | bloco ) ] ;
-enquantoStmt = "BAGUVIX" "L1" expressao "R1" bloco ;
+seStmt       = "TURNUPTHEHEAT" "L1" expressao "R1" bloco [ "TURNDOWNTHEHEAT" ( seStmt | bloco ) ] ;
+enquantoStmt = "KANGAROO" "L1" expressao "R1" bloco ;
 printStmt    = "HELLOLADIES" expressao "×" ;
 breakStmt    = "GOODBYECRUELWORLD" "×" ;
 bloco        = "△" { declaracao } "○" ;
@@ -49,7 +49,7 @@ primario     = NUMBER | STRING | "FULLCLIP" | "GHOSTTOWN" | IDENT
 ## Propriedades
 
 - **LL(1)**: cada regra decide a alternativa olhando só o próximo token. O parser (`grove/parser.py`) é uma descida recursiva direta: um método por regra.
-- **Sem ambiguidade de else**: o bloco do `AEZAKMI` é sempre delimitado por `△ … ○`, então o `ASNAEB` sempre pertence ao `AEZAKMI` imediatamente anterior.
+- **Sem ambiguidade de else**: o bloco do `TURNUPTHEHEAT` é sempre delimitado por `△ … ○`, então o `TURNDOWNTHEHEAT` sempre pertence ao `TURNUPTHEHEAT` imediatamente anterior.
 - **Declaração vs. atribuição**: `HESOYAM x = …` cria a variável; `x = …` sem `HESOYAM` só atribui. A verificação de "variável já declarada" é semântica e fica para a próxima etapa.
 
 ## Nós da AST
@@ -85,7 +85,7 @@ Entrada:
 
 ```
 HESOYAM n = 5 ×
-BAGUVIX L1 n > 1 R1 △
+KANGAROO L1 n > 1 R1 △
     n = n - 1 ×
 ○
 ```

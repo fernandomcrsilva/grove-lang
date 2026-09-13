@@ -36,13 +36,13 @@ class ParserTest(unittest.TestCase):
         self.assertEqual(p("HELLOLADIES -1 ×").body[0].value, Unary("-", Literal(1)))
 
     def test_if_else(self):
-        stmt = p("AEZAKMI L1 x == 1 R1 △ HELLOLADIES FULLCLIP × ○ ASNAEB △ HELLOLADIES GHOSTTOWN × ○").body[0]
+        stmt = p("TURNUPTHEHEAT L1 x == 1 R1 △ HELLOLADIES FULLCLIP × ○ TURNDOWNTHEHEAT △ HELLOLADIES GHOSTTOWN × ○").body[0]
         self.assertIsInstance(stmt, If)
         self.assertEqual(stmt.then, Block([Print(Literal(True))]))
         self.assertEqual(stmt.orelse, Block([Print(Literal(False))]))
 
     def test_else_if_encadeado(self):
-        stmt = p("AEZAKMI L1 a R1 △ ○ ASNAEB AEZAKMI L1 b R1 △ ○").body[0]
+        stmt = p("TURNUPTHEHEAT L1 a R1 △ ○ TURNDOWNTHEHEAT TURNUPTHEHEAT L1 b R1 △ ○").body[0]
         self.assertIsInstance(stmt.orelse, If)
 
     def test_erro_sintatico_aponta_posicao(self):

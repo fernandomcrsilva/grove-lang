@@ -9,9 +9,9 @@ from enum import Enum, auto
 class TokenType(Enum):
     # cheats
     VAR = auto()      # HESOYAM
-    IF = auto()       # AEZAKMI
-    ELSE = auto()     # ASNAEB
-    WHILE = auto()    # BAGUVIX
+    IF = auto()       # TURNUPTHEHEAT
+    ELSE = auto()     # TURNDOWNTHEHEAT
+    WHILE = auto()    # KANGAROO
     BREAK = auto()    # GOODBYECRUELWORLD
     PRINT = auto()    # HELLOLADIES
     TRUE = auto()     # FULLCLIP
@@ -48,9 +48,9 @@ class TokenType(Enum):
 # palavras reservadas: cheats + botões escritos como palavra (L1, R1, L2, R2)
 WORDS = {
     "HESOYAM": TokenType.VAR,
-    "AEZAKMI": TokenType.IF,
-    "ASNAEB": TokenType.ELSE,
-    "BAGUVIX": TokenType.WHILE,
+    "TURNUPTHEHEAT": TokenType.IF,
+    "TURNDOWNTHEHEAT": TokenType.ELSE,
+    "KANGAROO": TokenType.WHILE,
     "GOODBYECRUELWORLD": TokenType.BREAK,
     "HELLOLADIES": TokenType.PRINT,
     "FULLCLIP": TokenType.TRUE,

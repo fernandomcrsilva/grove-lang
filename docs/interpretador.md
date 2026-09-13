@@ -26,9 +26,9 @@ HELLOLADIES x ×                        # 9
 
 ## Controle de fluxo
 
-- `AEZAKMI` / `BAGUVIX` exigem condição booleana; inteiro na condição é erro.
+- `TURNUPTHEHEAT` / `KANGAROO` exigem condição booleana; inteiro na condição é erro.
 - `L2` e `R2` fazem curto-circuito: o lado direito só é avaliado se necessário.
-- `GOODBYECRUELWORLD` sai do `BAGUVIX` mais interno. Implementado com uma exceção interna (`BreakSignal`) capturada pelo laço.
+- `GOODBYECRUELWORLD` sai do `KANGAROO` mais interno. Implementado com uma exceção interna (`BreakSignal`) capturada pelo laço.
 
 ## Erros de execução
 
@@ -40,7 +40,7 @@ Todos lançam `RuntimeError_` e a CLI sai com código 1:
 | `HESOYAM` duas vezes no mesmo escopo | `variável 'a' já declarada neste escopo` |
 | `GOODBYECRUELWORLD` fora de laço | `GOODBYECRUELWORLD fora de laço` |
 | `/ 0` ou `% 0` | `divisão por zero` |
-| condição não booleana | `condição do AEZAKMI exige booleano, recebeu '1'` |
+| condição não booleana | `condição do TURNUPTHEHEAT exige booleano, recebeu '1'` |
 | operação entre tipos diferentes | `tipos incompatíveis para '+': '1' e 'a'` |
 
 ## Pipeline completo
