@@ -54,6 +54,10 @@ KANGAROO L1 n > 1 R1 {
 
 No Linux com tecla Compose, `Compose` + `x` + `x` dá `×`. Ou copie de [examples/fatorial.cj](examples/fatorial.cj).
 
+## Falas do jogo
+
+Ao rodar, o Grove toca um clipe do jogo: "MISSION PASSED" quando dá certo, "WASTED" em erro léxico, Big Smoke ("follow the damn train, CJ!") em erro sintático, CJ ("Ah shit, here we go again") em erro de execução. Os `.wav` não vêm no repositório; veja [assets/README.md](assets/README.md) para os nomes. Sem arquivo, fica em silêncio.
+
 ## Estrutura
 
 ```
@@ -62,7 +66,9 @@ grove/lexer.py     análise léxica  (texto → tokens)
 grove/ast.py       nós da AST + impressão
 grove/parser.py    análise sintática (tokens → AST), descida recursiva
 grove/interpreter.py  back-end: executa a AST (tree-walking)
+grove/sounds.py    toca assets/<evento>.wav ao compilar ou dar erro
 grove/__main__.py  linha de comando
+assets/            clipes .wav (não versionados)
 docs/              entregáveis: tabela de tokens, gramática, semântica
 examples/          programas de exemplo (.cj)
 tests/             unittest

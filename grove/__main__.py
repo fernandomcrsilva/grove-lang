@@ -7,6 +7,7 @@ import argparse
 import sys
 
 from . import LexError, ParseError, RuntimeError_, dump, parse, run, tokenize
+from .sounds import play
 
 
 def main(argv=None):
@@ -33,7 +34,9 @@ def main(argv=None):
             run(parse(tokens))
     except (LexError, ParseError, RuntimeError_) as e:
         print(f"erro: {e}", file=sys.stderr)
+        play({LexError: "lex_error", ParseError: "parse_error"}.get(type(e), "runtime_error"))
         return 1
+    play("passed")
     return 0
 
 
