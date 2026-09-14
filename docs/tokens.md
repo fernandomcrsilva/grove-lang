@@ -26,10 +26,10 @@ Todos são os códigos da versão de PC; no PS2 cada um corresponde a uma sequê
 | `○` | `}` | `RBRACE` | fecha bloco |
 | `×` | `;` | `SEMI` | fim de instrução (confirmar) |
 | `□` | `!` | `NOT` | negação lógica |
-| `L1` | `LPAREN` | abre parênteses |
-| `R1` | `RPAREN` | fecha parênteses |
-| `L2` | `AND` | e lógico |
-| `R2` | `OR` | ou lógico |
+| `L1` | — | `LPAREN` | abre parênteses |
+| `R1` | — | `RPAREN` | fecha parênteses |
+| `L2` | — | `AND` | e lógico |
+| `R2` | — | `OR` | ou lógico |
 
 `△ ○ × □` são os caracteres Unicode U+25B3, U+25CB, U+00D7, U+25A1; os aliases ASCII produzem o mesmo token e podem ser misturados. `L1 R1 L2 R2` são escritos como palavras e por isso não podem ser usados como nome de variável.
 
